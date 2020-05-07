@@ -537,6 +537,11 @@ ol {
 	margin-bottom: 0;
 }
 
+.courses-list li {
+	margin: 10px;
+	position: relative;
+}
+
 /*---------------------
 	Review section
 -----------------------*/
