@@ -155,7 +155,7 @@ ol {
 .site-btn {
 	display: inline-block;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 16px;
 	min-width: 213px;
 	min-height: 20px;
 	text-align: center;
@@ -388,7 +388,8 @@ ol {
 }
 
 .hero-text p {
-	font-size: 33px;
+	margin-top: 16px;
+	font-size: 36px;
 	line-height: 1.3;
 }
 
@@ -405,7 +406,7 @@ ol {
 }
 
 .hero-info ul li {
-	font-size: 24px;
+	font-size: 20px;
 	color: #808181;
 	margin-bottom: 15px;
 }
@@ -418,6 +419,10 @@ ol {
 
 .hero-info ul li:last-child {
 	margin-bottom: 0;
+}
+
+.personal-description p {
+	font-size: 20px;
 }
 
 /*---------------------
@@ -504,12 +509,17 @@ ol {
 }
 
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 60px;
+	margin-bottom: 10px;
+}
+
+.resume-list h3 {
+	font-size: 36px;
 	margin-bottom: 10px;
 }
 
 .resume-list h4 {
-	font-size: 16px;
+	font-size: 24px;
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
@@ -520,22 +530,25 @@ ol {
 	margin-bottom: 0;
 }
 
-.courses-list li {
+.courses-list li,
+.achievements-list li {
 	margin: 10px;
 	position: relative;
+	font-size: 24px;
 }
+
 
 /*---------------------
 	Review section
 -----------------------*/
 .review-slider {
-	padding-left: 150px;
+	padding-left: 100px;
 }
 
 .review-slider .owl-dots {
 	position: absolute;
 	left: 50px;
-	top: 70px;
+	top: 50px;
 }
 
 .review-slider .owl-dots .owl-dot {
@@ -560,6 +573,7 @@ ol {
 
 .single-review p {
 	margin-bottom: 40px;
+	font-size: 20px;
 }
 
 .single-review h3 {
@@ -568,7 +582,7 @@ ol {
 }
 
 .single-review h4 {
-	font-size: 16px;
+	font-size: 20px;
 }
 
 
@@ -582,7 +596,7 @@ ol {
 
 .copyright {
 	padding-top: 5px;
-	font-size: 12px;
+	font-size: 16px;
 	color: #838488;
 	line-height: normal;
 }
@@ -637,7 +651,7 @@ ol {
 
 .home-three-style .hero-image,
 .home-four-style .hero-image {
-	margin-bottom: 60px;
+	margin-bottom: 36px;
 	width: auto;
 }
 
@@ -686,7 +700,7 @@ ol {
 .home-three-style .social-links,
 .home-four-style .social-links {
 	text-align: center;
-	padding-bottom: 70px;
+	padding-bottom: 36px;
 	padding-top: 0px;
 }
 
