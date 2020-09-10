@@ -37,7 +37,7 @@ h3 {
 p {
 	font-size: 18px;
 	color: #808181;
-	line-height: 1.8;
+	line-height: 1.5;
 }
 
 img {
@@ -49,6 +49,10 @@ select:focus,
 button:focus,
 textarea:focus {
 	outline: none;
+}
+
+a {
+	color: #40424a;
 }
 
 a:hover,
@@ -66,15 +70,17 @@ ol {
 /*---------------------
 	Helper CSS
 -----------------------*/
+
 .spad {
-	padding-top: 125px;
-	padding-bottom: 110px;
+/*	padding-top: 125px; */
+	padding-bottom: 20px;
 }
+
 
 .section-title h2 {
 	display: inline-block;
 	position: relative;
-	margin-bottom: 110px;
+	margin-bottom: 50px;
 	padding-bottom: 2px;
 	line-height: normal;
 }
@@ -368,6 +374,10 @@ ol {
 	margin-bottom: 0px;
 }
 
+.work-experience, .references {
+	margin-top: 70px;
+}
+
 
 /*---------------------
 	Hero section
@@ -443,7 +453,7 @@ ol {
 .social-section .social-links a {
 	color: #484848;
 	font-size: 36px;
-	margin-right: 40px;
+	margin-right: 20px;
 }
 
 .social-section .social-link-warp {
@@ -452,7 +462,7 @@ ol {
 
 .social-section .social-link-warp h2 {
 	display: inline-block;
-	float: right;
+/*	float: right; */
 	font-weight: 400;
 	padding-left: 30px;
 	background: #f9f9f9;
@@ -488,7 +498,7 @@ ol {
 }
 
 .resume-list li {
-	margin-bottom: 120px;
+	margin-bottom: 40px;
 	position: relative;
 }
 
@@ -523,7 +533,7 @@ ol {
 	text-transform: uppercase;
 	color: #808181;
 	margin-top: 10px;
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .resume-list p {
@@ -614,13 +624,14 @@ ol {
 
 .home-three-style .main-left-area .section-title h2,
 .home-four-style .main-left-area .section-title h2 {
-	margin-bottom: 130px;
+	margin-bottom: 50px;
 }
 
 .home-three-style .main-right-area,
 .home-four-style .main-right-area {
 	padding-top: 200px;
 	padding-left: 110px;
+	padding-right: 110px;
 }
 
 .home-three-style .resume-list li,
@@ -700,14 +711,14 @@ ol {
 .home-three-style .social-links,
 .home-four-style .social-links {
 	text-align: center;
-	padding-bottom: 36px;
+	padding-bottom: 30px;
 	padding-top: 0px;
 }
 
 .home-three-style .social-links a,
 .home-four-style .social-links a {
 	font-size: 60px;
-	margin-right: 40px;
+	margin: 0 10px 0;
 	color: #b9b9b9;
 }
 
