@@ -321,7 +321,7 @@ ol {
 	font-size: 24px;
 	position: relative;
 	padding-right: 150px;
-	margin-bottom: 30px;
+/*	margin-bottom: 30px; */
 }
 
 .language-progress .lan-prog {
@@ -374,7 +374,7 @@ ol {
 	margin-bottom: 0px;
 }
 
-.work-experience, .references {
+.work-experience, .references, .languages {
 	margin-top: 70px;
 }
 
