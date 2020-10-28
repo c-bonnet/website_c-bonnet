@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This digit does not exist!</title>
+    <link rel="stylesheet" href="digit.css">
+    <script type="text/javascript">
+        function randomImage() {
+        var theImage = document.getElementById('myimage');
+        var imgDir = 'digits/';
+        var imgIndex = imgIndex = Math.floor(1+ 1000*Math.random());
+        var imgPath = imgDir + "digit_" + imgIndex + ".jpg";
+        theImage.src = imgPath;
+        console.log(imgPath)
+    }
+    </script>
+</head>
+<body onload="randomImage()">
+    <a href="#" onclick="randomImage()">
+        <img id="myimage" alt="This digit does not exist" width="280"/>   
+    </a>
+</body>
+</html>
